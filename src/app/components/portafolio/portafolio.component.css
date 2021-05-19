@@ -22,22 +22,26 @@
      align-items: center;
  }
  
+ .moving:hover {
+     transform: scale(1.3);
+     transition: 0.8s;
+ }
+ 
  .name {
      padding: 20px;
  }
- 
- .presentacion {
+ /* .presentacion {
      display: flex;
      text-align: left;
      height: 140px;
      margin: auto;
      width: 500px;
      font-size: 18px;
- }
- 
+ } */
+ /*  
  .imagen {
      border-radius: 150px;
- }
+ } */
  
  .container .card {
      position: relative;
