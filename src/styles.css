@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    box-sizing: border-box;
+    margin-top: 0px;
+    min-height: 100vh;
+    margin: 0px;
+    background-image: url(assets/img/11799.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+    filter: saturate(3px);
+    backdrop-filter: blur(3px)
+}
+
+.navbar .container-fluid {
+    background: transparent !important;
+}
+
+.navbar-nav .nav-item {
+    font-size: 20px;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: bold;
+    /* color: #FFFFFF !important */
+    /* line-height: 20px; */
+}
+
+.name p {
+    font-size: 68px;
+    font-family: Itim;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.name {
+    background-color: transparent;
+    margin: 4rem 40px 10px 40px;
+}
+
+.sub {
+    /* color: #c3b0ff;
+    font-size: 38px;
+    padding-left: 30px;
+    font-family: segoe script; */
+    font-family: Norican;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 54px;
+    background: -webkit-linear-gradient(#994efc, rgb(236, 195, 238), #9a53f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(244, 199, 255);
+    padding-left: 6rem;
+}
+
+.home-image img {
+    width: 350px;
+    height: 300px;
+    margin-top: 60px;
+    border-radius: 90px;
+}
